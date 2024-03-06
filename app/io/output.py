@@ -19,7 +19,7 @@ def write_file_builtin(filename, content):
     file_path (str): The path to the file to be written.
     content (str): The content to be written to the file.
     """
-    data_folder = 'data'
+    data_folder = 'data/output_files'
     file_path = os.path.join(data_folder, filename)
 
     with open(file_path, 'w') as file:
